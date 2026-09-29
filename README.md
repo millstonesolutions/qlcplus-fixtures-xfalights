@@ -37,8 +37,8 @@ The "192 partitions" are 4 × 48 LED groups; DMX addresses them as 48 RGB pixels
 | 0–5 | Manual — static RGB from CH9–11 (Background Colour) |
 | 6–8 | Static colour — CH4 picks red, green, blue, yellow, purple, cyan or white |
 | 9–11 / 12–14 / 15–17 / 18–20 | Breathing / Jump change / Gradient change / Pulse change |
-| 21–188 | Autorun effects 1–56 (3 values each), colour from CH5 |
-| 189–191 / 192–229 | Autorun effects 57 / 58, full colour |
+| 21–185 | Autorun effects 1–55 (3 values each), colour from CH5 |
+| 186–188 / 189–191 / 192–229 | Autorun effects 56 / 57 / 58, full colour |
 | 230–255 | Sound modes 1–8 (3 values each, 8 = 251–255), colour from CH5 |
 
 **CH4** is static colour select, autorun speed (slow → fast) or sound sensitivity (low → high),
